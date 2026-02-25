@@ -36,7 +36,7 @@ export default function CareerSection({
             <div key={item.title} className="flex flex-col gap-0">
               <div className="group flex w-full flex-col gap-1">
                 <a
-                  target="_blank"
+                  // target="_blank"
                   rel="noreferrer"
                   className="group flex items-center gap-2 text-(--text-strong)"
                   href={item.link}

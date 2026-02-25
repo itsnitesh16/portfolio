@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+* {
+  scroll-behavior: smooth;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-duration: 280ms;
+  transition-timing-function: ease;
+}
+
+:root,
+.dark {
+  --bg: #05070b;
+  --text-strong: #f4f4f5;
+  --text: #d4d4d8;
+  --text-muted: #a1a1aa;
+  --text-dim: #71717a;
+  --line: #3f3f46;
+  --dot: #d4d4d8;
+  --btn-bg: rgba(9, 9, 11, 0.82);
+  --btn-border: rgba(63, 63, 70, 0.8);
+  --btn-text: #e4e4e7;
+  --footer-top: #05070b;
+  --footer-mid: #394382;
+  --footer-bottom: #2c3f8f;
+}
+
+.light {
+  --bg: #f7f8fb;
+  --text-strong: #18181b;
+  --text: #3f3f46;
+  --text-muted: #52525b;
+  --text-dim: #71717a;
+  --line: #d4d4d8;
+  --dot: #52525b;
+  --btn-bg: rgba(255, 255, 255, 0.86);
+  --btn-border: rgba(161, 161, 170, 0.7);
+  --btn-text: #18181b;
+  --footer-top: #eceff8;
+  --footer-mid: #d3dcf5;
+  --footer-bottom: #b7c7f1;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: var(--font-geist-sans), sans-serif;
+}

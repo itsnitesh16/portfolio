@@ -51,7 +51,14 @@ export default function HeaderSection() {
               𝕏
             </a>
             , check out my{" "}
-            Full Portfolio
+            <a
+              target="_blank"
+              rel="noreferrer"
+              className="underline decoration-blue-500 decoration-wavy underline-offset-4 transition-all duration-150 ease-[cubic-bezier(0.08,0.82,0.17,1)] hover:text-(--text-strong)"
+              href="https://docs.google.com/document/d/1LFVl_IrRZxqXgV9cbyeDEbggzYulihvNCi70rpzcG3M/edit?usp=sharing"
+            >
+              resume
+            </a>
             , or you can always reach me at{" "}
             <a
               target="_blank"

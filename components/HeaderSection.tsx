@@ -55,7 +55,7 @@ export default function HeaderSection() {
               target="_blank"
               rel="noreferrer"
               className="underline decoration-blue-500 decoration-wavy underline-offset-4 transition-all duration-150 ease-[cubic-bezier(0.08,0.82,0.17,1)] hover:text-(--text-strong)"
-              href="https://docs.google.com/document/d/1LFVl_IrRZxqXgV9cbyeDEbggzYulihvNCi70rpzcG3M/edit?usp=sharing"
+              href="https://docs.google.com/document/d/1apNzEDR0Rfy8lVzFHmkyJPmlhEsNpTcVjNzJqBWA-4Y/edit?usp=sharing"
             >
               resume
             </a>

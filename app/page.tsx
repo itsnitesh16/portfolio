@@ -173,6 +173,16 @@ const careerEntries = [
 
 const projectEntries = [
   {
+    title: "AttendAI",
+    link: "https://abeenitesh.in",
+    summary:
+      "AttendAI is a production-ready AI-powered attendance management platform that combines computer vision and speaker recognition to automate attendance. It includes biometric authentication, subject enrollment, attendance analytics, and a responsive web interface deployed on Streamlit.",
+    points: [
+      "Built and deployed AttendAI, a full-stack attendance system using face recognition (dlib embeddings + SVC classifier) and voice recognition (Resemblyzer speaker embeddings + Librosa audio preprocessing) to automate classroom attendance with dual biometric verification",
+      "Designed end-to-end student/teacher authentication portals with registration, subject enrollment, and real-time attendance tracking; deployed a production computer vision + audio processing pipeline on Streamlit with a Vercel-hosted landing page.",
+    ],
+  },
+  {
     title: "ChirpChain",
     link: "https://github.com/itsnitesh16/twitter-expo-app.git",
     summary:

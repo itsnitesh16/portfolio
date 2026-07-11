@@ -11,7 +11,7 @@ export default function HeaderSection() {
           <div className="text-(--text-muted)">
             22,{" "}
             <div className="inline whitespace-pre-wrap tracking-tight">
-              <TypingText words={["React Native Developer", "Full Stack Developer", "Youtuber", "Backend Developer"]} />
+              <TypingText words={["AI/ML Engineer", "React Native Developer", "Full Stack Developer", "Youtuber", "Backend Developer"]} />
             </div>
           </div>
         </div>
